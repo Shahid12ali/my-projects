@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #FFFFFF;
+}
+
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    cursor: pointer;
+    margin: 30px 100px;
+    color: midnightblue;
+}
+
+td,th{
+    padding: 12px 15px;
+    border: solid 1px #DDD;
+}
+
+td{
+
+    font-weight: bold;
+}
+
+th{
+    background-color: darkblue;
+    color: #FFFFFF;
+}
+
+TR:nth-child(EVEN){
+    background-color: #F5F5F5;
+}
+
+TR:nth-child(ODD){
+    background-color: antiquewhite;
+}
+
+td:hover{
+    padding: 13px;
+    background-color: pink;
+    border-radius: 9px;
+}
+caption:hover{
+
+    padding: 6px;
+    background-color: black;
+    color: mediumvioletred;
+    width: 33%;
+    margin-left: 30%;
+    border: 13px;
+}
